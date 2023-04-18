@@ -27,13 +27,13 @@ export default function App()
       <Text style={styles.subheader}>készítette: Juhász Roland (Szoft II N)</Text>
       <TextInput
         style={styles.input}
-        placeholder="Number of first-class apples"
+        placeholder="Első osztályú almák"
         keyboardType="numeric"
         onChangeText={(value) => setFirstClassApples(parseInt(value))}
       />
       <TextInput
         style={styles.input}
-        placeholder="Number of second-class apples"
+        placeholder="Másodosztályú almák"
         keyboardType="numeric"
         onChangeText={(value) => setSecondClassApples(parseInt(value))}
       />
